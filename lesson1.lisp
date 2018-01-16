@@ -1,7 +1,7 @@
-;;; Comment
+;; Comment
 #||
-hello, my man, this is da big comment
+hello, my man, this is da big (multiline) comment
 ||#
-(format t "Hello world ~%")
-
+(print "Hey, how you doing, Andrew?")
+;; (format t "Hello world ~%")
 
