@@ -12,7 +12,13 @@ hello, my man, this is da big (multiline) comment
 (defun hello-you (*name*)
   (format t "Hello ~a! ~%" *name*)
 )
-;; capitalization
+
+;; ~a : Shows the value
+;; ~s : Shows quoutes around value
+;; ~10a ; Adds 10 spaces for the value with extra space to the right
+;; ~10@a ; Adds 10 spaces for the value with extra space to the left
+
+;; capitalization instead of caps-lock by default
 (setq *print-case* :capitalize)
 
 (hello-you *name*)
